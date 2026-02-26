@@ -110,6 +110,7 @@
     ```
     *Очікуваний результат: термінал виведе рядок з іменами.*
     *Скріншот: 2.2.1_echo_vars.png*
+![2.2.1_echo_vars](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.1_echo_vars.png)
 
 3.  **Створення псевдонімів:**
     ```bash
@@ -126,6 +127,7 @@
     ```
     *Очікуваний результат: на екрані з'являться календарі за вказані роки.*
     *Скріншот: 2.2.1_aliases.png*
+![2.2.1_aliases](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.1_aliases.png)
 
 5.  **Перегляд усіх псевдонімів:**
     ```bash
@@ -177,7 +179,8 @@
     ```bash
     echo "'We create such Aliases as' mycal1, mycal2, mycal3, 'which can show our calendars:' $(mycal1 | head -1), $(mycal2 | head -1), $(mycal3 | head -1)"
     ```
-    *Примітка: `| head -1` бере лише перший рядок виводу (назву року), щоб не захаращувати термінал усім календарем.*
+    *Примітка: `| head -1` бере лише перший рядок виводу (назву року), щоб ВДРУГЕ не захаращувати термінал усім календарем. :)*
+
     *Скріншот: 2.2.3_quoting_2.png*
 
 ---
@@ -204,7 +207,6 @@
     ```bash
     man uname
     ```
-    *Для виходу з режиму перегляду натисніть клавішу `q`.*
     *Скріншот: 2.2.5_man_uname.png*
 
 2.  **5 різних варіантів виводу команди `uname`:**
@@ -217,13 +219,3 @@
     ```
     *Очікуваний результат: п'ять різних рядків з інформацією про систему.*
     *Скріншот: 2.2.5_uname_examples.png*
-
-
-
-
-
-![SwitchUser](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/image4.png)
-![Restart](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/image5.png)
-![PowerOff](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/image6.png)
-<img src="https://github.com/unforgivingbunny/collegework/raw/main/os/lessons/lesson2/img/NOS4.jpg" width="250"> 
-<img src="https://github.com/unforgivingbunny/collegework/raw/main/os/lessons/lesson2/img/NOS3.jpg" width="250">
