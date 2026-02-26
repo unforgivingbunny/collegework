@@ -108,7 +108,7 @@
     ```bash
     echo $var_name1 $var_name2 $var_name3
     ```
-    *Очікуваний результат: термінал виведе рядок з іменами.*
+
     *Скріншот: 2.2.1_echo_vars.png*
 ![2.2.1_echo_vars](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.1_echo_vars.png)
 
@@ -125,7 +125,7 @@
     mycal2
     mycal3
     ```
-    *Очікуваний результат: на екрані з'являться календарі за вказані роки.*
+
     *Скріншот: 2.2.1_aliases.png*
 ![2.2.1_aliases](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.1_aliases.png)
 
@@ -154,13 +154,15 @@
     }
     ```
     *Скріншот: 2.2.2_function_create.png*
+![2.2.2_function_create](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.2_function_create.png)
 
 2.  **Виклик функції:**
     ```bash
     students_report
     ```
-    *Очікуваний результат: функція виведе список імен та років.*
+    
     *Скріншот: 2.2.2_function_call.png*
+![2.2.2_function_call](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.2_function_call.png)
 
 ---
 
@@ -174,6 +176,7 @@
     echo "'We create such variables as' \$var_name1, \$var_name2, \$var_name3, 'which stored our names' $var_name1, $var_name2, $var_name3"
     ```
     *Скріншот: 2.2.3_quoting_1.png*
+![2.2.3_quoting_1](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.3_quoting_1.png)
 
 2.  **Виведення речення з назвами псевдонімів та результатом їх роботи:**
     ```bash
@@ -182,6 +185,7 @@
     *Примітка: `| head -1` бере лише перший рядок виводу (назву року), щоб ВДРУГЕ не захаращувати термінал усім календарем. :)*
 
     *Скріншот: 2.2.3_quoting_2.png*
+![2.2.3_quoting_2](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.3_quoting_2.png)
 
 ---
 
@@ -194,8 +198,9 @@
     ```bash
     var_name1=Олег; var_name2=Макар; var_name3=Женя; echo "--- Завдання 2.1 ---"; echo "Імена студентів:"; echo $var_name1 $var_name2 $var_name3; echo "--- Завдання 2.2 ---"; echo "Імена студентів:"; echo "$var_name1"; echo "$var_name2"; echo "$var_name3"; echo "Роки народження:"; echo "2007"; echo "2008"; echo "2007"
     ```
-    *Очікуваний результат: термінал виконає всі команди послідовно та виведе звіт, аналогічний функції.*
+
     *Скріншот: 2.2.4_control_statements.png*
+![2.2.4_control_statements](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.4_control_statements.png)
 
 ---
 
@@ -208,6 +213,7 @@
     man uname
     ```
     *Скріншот: 2.2.5_man_uname.png*
+![2.2.5_man_uname](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.5_man_uname.png)
 
 2.  **5 різних варіантів виводу команди `uname`:**
     ```bash
@@ -217,5 +223,6 @@
     uname -m
     uname -a
     ```
-    *Очікуваний результат: п'ять різних рядків з інформацією про систему.*
+
     *Скріншот: 2.2.5_uname_examples.png*
+![2.2.5_uname_examples](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.5_uname_examples.png)
