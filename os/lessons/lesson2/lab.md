@@ -91,10 +91,6 @@ Nothing OS має мінімалістичний дизайн, монохром�
 ![QSettings](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/NOS2.jpg)
 ![Settings](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/NOS1.jpg)
 
-і тут
-
-    Скріншот головного меню "Налаштування".
-
 3.  **Комбінації клавіш:**
     *   **Живлення + Гучність (-)**: Скріншот.
     *   **Подвійне натискання живлення**: Швидкий запуск камери.
