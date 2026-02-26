@@ -48,17 +48,17 @@
 **Опис робочого простору GNOME:**
 Робочий стіл складається з верхньої панелі (годинник, індикатори, меню користувача) та меню "Activites", яке викликається кнопкою в лівому верхньому куті.
 
-![Загальний вигляд](*image1)
+![Загальний вигляд](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/image1.png)
 
 **Способи запуску програм:**
 
 1.  **Через панель швидкого запуску (Dash):** У меню Activities клікнути на іконку програми на лівій панелі.
 
-![Dash](*image2)
+![Dash](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/image2.png)
 
 2.  **Через пошук:** Відкрити Activities, почати вводити назву ("Firefox"), клікнути на іконку в результатах.
 
-![Пошук](*image3)
+![Пошук](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/image3.png)
 
 **Вихід з системи та завершення роботи:**
 
@@ -66,9 +66,9 @@
 2.  **Перезавантаження:** Меню користувача -> кнопка живлення -> **Restart**.
 3.  **Вимкнення:** Меню користувача -> кнопка живлення -> **Power Off**.
 
-![SwitchUser](image4)
-![Restart](image5)
-![PowerOff](image6)
+![SwitchUser](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/image4.png)
+![Restart](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/image5.png)
+![PowerOff](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/image6.png)
 
 ---
 
@@ -82,14 +82,14 @@ Nothing OS має мінімалістичний дизайн, монохром�
 1.  **Головний екран та меню додатків:**
     На головному екрані розташовані віджети та папки. Меню всіх додатків викликається свайпом вгору.
 
-![Home](NOS1)
-![Menu](NOS2)
+![Home](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/NOS4.jpg)
+![Menu](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/NOS3.jpg)
 
 2.  **Налаштування:**
     Меню налаштувань містить розділи: "Підключення", "Звук", "Дисплей", "Акумулятор".
 
-![QSettings](NOS3)
-![Settings](NOS4)
+![QSettings](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/NOS2.jpg)
+![Settings](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/NOS1.jpg)
 
 і тут
 
