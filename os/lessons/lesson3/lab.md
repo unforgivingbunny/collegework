@@ -154,6 +154,7 @@
     }
     ```
     *Скріншот: 2.2.2_function_create.png*
+
 ![2.2.2_function_create](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.2_function_create.png)
 
 2.  **Виклик функції:**
@@ -162,6 +163,7 @@
     ```
     
     *Скріншот: 2.2.2_function_call.png*
+
 ![2.2.2_function_call](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/lessons/lesson3/img/2.2.2_function_call.png)
 
 ---
