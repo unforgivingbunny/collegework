@@ -82,14 +82,14 @@ Nothing OS має мінімалістичний дизайн, монохром�
 1.  **Головний екран та меню додатків:**
     На головному екрані розташовані віджети та папки. Меню всіх додатків викликається свайпом вгору.
 
-![Home](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/NOS4.jpg)
-![Menu](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/NOS3.jpg)
+<img src="https://github.com/unforgivingbunny/collegework/raw/main/os/lessons/lesson2/img/NOS4.jpg" width="250"> 
+<img src="https://github.com/unforgivingbunny/collegework/raw/main/os/lessons/lesson2/img/NOS3.jpg" width="250">
 
 2.  **Налаштування:**
     Меню налаштувань містить розділи: "Підключення", "Звук", "Дисплей", "Акумулятор".
 
-![QSettings](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/NOS2.jpg)
-![Settings](https://github.com/unforgivingbunny/collegework/blob/main/os/lessons/lesson2/img/NOS1.jpg)
+<img src="https://github.com/unforgivingbunny/collegework/raw/main/os/lessons/lesson2/img/NOS2.jpg" width="250"> 
+<img src="https://github.com/unforgivingbunny/collegework/raw/main/os/lessons/lesson2/img/NOS1.jpg" width="250">
 
 3.  **Комбінації клавіш:**
     *   **Живлення + Гучність (-)**: Скріншот.
