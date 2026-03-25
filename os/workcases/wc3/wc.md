@@ -5,12 +5,12 @@
 
 **Клонування:** У середовищі VirtualBox виконано повне клонування (Full Clone) базової ОС Linux Mint. Для уникнення конфліктів у мережі застосовано політику генерації нових MAC-адрес для всіх мережевих адаптерів.
 
-![wc3_1](wc3_1.png)
-![wc3_2](wc3_2.png)
+![wc3_1](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/wc3_1.png)
+![wc3_2](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/wc3_2.png)
 
 **Експорт:** Процес перенесення ОС в інше середовище виконується через головне меню гіпервізора «Export Virtual Appliance».
 
-![wc3_3](wc3_3.png)
+![wc3_3](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/wc3_3.png)
 
 ---
 
@@ -22,20 +22,20 @@
 
 У налаштуваннях обох ВМ встановлено тип підключення **Bridged Adapter**.
 
-![wc3_5](wc3_5.png)
+![wc3_5](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/wc3_5.png)
 
 **Перевірка зв'язку:** Командою `ip a` визначено IP-адреси машин. Мережевий зв'язок між базовою ОС та клоном успішно перевірено за допомогою команди `ping`.
 
-![wc3_6](wc3_6.jpg)
+![wc3_6](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/wc3_6.png)
 
 **Доступ до Інтернету:** Перевірено шляхом успішного запуску відео на ресурсі YouTube через вбудований веб-браузер.
 
-![wc3_7](wc3_7.jpg)
+![wc3_7](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/wc3_7.png)
 
 **Обмін повідомленнями:** Налаштовано за допомогою мережевої утиліти `netcat` (`nc`). На першій машині відкрито порт для прослуховування, на машині-клоні виконано підключення. Текстове повідомлення успішно передано по локальній мережі.
 
-![wc3_9](wc3_9.jpg)
-![wc3_8](wc3_8.jpg)
+![wc3_9](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/wc3_9.png)
+![wc3_8](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/wc3_8.png)
 
 ---
 
@@ -45,10 +45,10 @@
 
 У верхньому меню віртуальної машини (**Devices → Drag and Drop**) увімкнено режим **«Двонаправлений» (Bidirectional)**.
 
-![wc3_10](wc3_10.jpg)
+![wc3_10](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/wc3_10.png)
 
 Аудіо-файл `1.mp3` успішно скопійовано з робочого столу основної ОС (Windows) на робочий стіл віртуальної машини звичайним перетягуванням мишкою.
 
-![wc3_11](wc3_11.jpg)
-![wc3_12](wc3_12.jpg)
-![wc3_13](wc3_13.jpg)
+![wc3_11](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/wc3_11.png)
+![wc3_12](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/wc3_12.png)
+![wc3_13](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/wc3_13.png)
