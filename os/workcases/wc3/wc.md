@@ -1,6 +1,31 @@
 # Work-case №3
 ## Виконали: Глядченко, Козуб 
 
+## Glossary of Terms
+
+**Virtual Machine (VM):**  
+A software-based emulation of a physical computer that runs an operating system and applications.
+
+**Hypervisor:**  
+Software that creates and manages virtual machines (e.g., VirtualBox).
+
+**Export (Virtual Appliance):**  
+The process of packaging a virtual machine into a file (e.g., OVA) for transfer and reuse.
+
+**NAT (Network Address Translation):**  
+A networking mode where the VM accesses external networks through the host's IP address.
+
+**Host-only Network:**  
+A private network between the host and virtual machines without Internet access.
+
+**Internal Network:**  
+An isolated network used only for communication between virtual machines.
+
+**IP Address:**  
+A unique numerical label assigned to each device in a network.
+
+---
+
 ## 1. Клонування та експорт віртуальної машини
 
 **Клонування:** У середовищі VirtualBox виконано повне клонування (Full Clone) базової ОС Linux Mint. Для уникнення конфліктів у мережі застосовано політику генерації нових MAC-адрес для всіх мережевих адаптерів.
@@ -14,7 +39,12 @@
 
 ---
 
+## 2. Типи організації мережевих з'єднань
 
+- NAT (Трансляція мережевих адрес): ВМ отримує доступ до Інтернету через IP хоста. Зовнішня мережа її не бачить.
+- Bridged Adapter (Мережевий міст): ВМ підключається безпосередньо до фізичної мережі та отримує власну IP-адресу. Машини бачать одна одну і мають вихід в Інтернет.
+- Host-only (Віртуальний адаптер хоста): Створюється ізольована мережа лише між хостом та ВМ. Доступ до Інтернету відсутній.
+- Internal Network (Внутрішня мережа): Повністю ізольована мережа виключно між віртуальними машинами (без доступу до хоста та Інтернету).
 
 ---
 
@@ -52,3 +82,13 @@
 ![wc3_11](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/img/wc3_11.png)
 ![wc3_12](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/img/wc3_12.png)
 ![wc3_13](https://github.com/unforgivingbunny/collegework/blob/main/os/workcases/wc3/img/wc3_13.png)
+
+---
+
+## Conclusion
+
+In this work-case, the process of cloning and exporting a virtual machine was successfully performed using VirtualBox. Different types of network configurations were studied and applied, with the Bridged Adapter mode enabling full communication between the host system and the cloned virtual machine.
+
+The network connectivity was verified using standard tools such as `ip a` and `ping`, confirming stable communication between systems. Internet access was also tested successfully. Additionally, data exchange between machines was implemented using the `netcat` utility, demonstrating basic network interaction.
+
+Finally, file transfer between the host and the virtual machine was configured using the Drag and Drop feature, ensuring convenient data sharing. Overall, the practical tasks helped to better understand virtualization, networking configurations, and communication between systems.
