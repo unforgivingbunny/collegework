@@ -65,7 +65,7 @@
   
   *Приклад:* Monster User Flow від **Spotify** (схема онбордингу + створення плейлиста + пошук + підписка).
 
-![скріншот 1](https://github.com/unforgivingbunny/collegework/raw/main/design/lessons/lesson4/img/2.png)
+![скріншот 1](https://github.com/unforgivingbunny/collegework/raw/main/design/lessons/lesson4/img/2.webp)
 
   *Методи групування для читабельності:*
   - **Вертикальні "доріжки" (Swimlanes):** окремі зони для "гостя", "користувача Free", "користувача Premium".
