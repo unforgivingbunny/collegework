@@ -67,6 +67,8 @@
 
 ![скріншот 2](https://github.com/unforgivingbunny/collegework/blob/main/design/lessons/lesson4/img/2.png)
 
+https://www.figma.com/community/file/1243018514709203069/user-flow-map-for-spotify
+
   *Методи групування для читабельності:*
   - **Вертикальні "доріжки" (Swimlanes):** окремі зони для "гостя", "користувача Free", "користувача Premium".
   - **Кольорове кодування:** один колір — один сценарій (жовтий = помилка, зелений = успіх).
