@@ -18,7 +18,7 @@
   
   Wireflow — це гібрид вайрфрейму (схематичного зображення інтерфейсу) та флоу (схеми переходів). Він показує не окремі екрани, а зв'язки між ними із зазначенням дій користувача (кліки, свайпи), що дозволяє оцінити навігацію без малювання піксельно точного UI.
 
-![скріншот 1](https://github.com/unforgivingbunny/collegework/raw/main/design/lessons/lesson4/img/1.png)
+![скріншот 1](https://github.com/unforgivingbunny/collegework/blob/main/design/lessons/lesson4/img/1.webp)
 
 - **Чому паперовий та інтерактивний прототип економить бюджет?**
   
@@ -65,7 +65,7 @@
   
   *Приклад:* Monster User Flow від **Spotify** (схема онбордингу + створення плейлиста + пошук + підписка).
 
-![скріншот 1](https://github.com/unforgivingbunny/collegework/raw/main/design/lessons/lesson4/img/2.webp)
+![скріншот 2](https://github.com/unforgivingbunny/collegework/blob/main/design/lessons/lesson4/img/2.png)
 
   *Методи групування для читабельності:*
   - **Вертикальні "доріжки" (Swimlanes):** окремі зони для "гостя", "користувача Free", "користувача Premium".
