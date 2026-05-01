@@ -1,7 +1,12 @@
 # Work-case №3
 ## Виконали: Глядченко, Козуб 
 
-
+### Glossary  
+*   CLI (Command Line Interface) - Інтерфейс командного рядка  
+*   Package Manager - Менеджер пакетів (інструмент для встановлення програм)  
+*   Terminal emulator - Емулятор терміналу  
+*   Text editor - Текстовий редактор  
+*   System monitor - Системний монітор (диспетчер задач)
 
 ---
 
@@ -65,3 +70,32 @@
 
 ---
 
+### Завдання 3. «Пасхалки» в терміналі  
+
+1. Паровий локомотив.  
+Анімація поїзда, що проїжджає по екрану.  
+*   Команда встановлення: sudo apt install sl  
+*   Команда запуску: sl  
+![скріншот 10](https://github.com/unforgivingbunny/collegework/raw/main/os/workcases/wc8/img/10.png)
+
+2. Зоряні війни.  
+Перегляд ASCII-версії фільму через віддалений сервер.  
+*   Команда запуску: telnet telehack.com (команда starwars)  
+![скріншот 11](https://github.com/unforgivingbunny/collegework/raw/main/os/workcases/wc8/img/11.png)
+
+3. Діалог з коровою.  
+Утиліта, яка виводить ASCII-корову з вказаним текстом.  
+*   Команда встановлення: sudo apt install cowsay  
+*   Команда запуску: cowsay "Hello, World"  
+![скріншот 12](https://github.com/unforgivingbunny/collegework/raw/main/os/workcases/wc8/img/12.png)
+
+4. Власна знахідка (ефект Матриці).  
+Ефект падаючого цифрового дощу з фільму "Матриця".  
+*   Команда встановлення: sudo apt install cmatrix  
+*   Команда запуску: cmatrix  
+![скріншот 13](https://github.com/unforgivingbunny/collegework/raw/main/os/workcases/wc8/img/13.png)
+
+---
+
+### Conclusion  
+During this laboratory work, I familiarized myself with the capabilities of the Linux operating system without a graphical user interface. I learned how to install and use terminal-based alternatives for common graphical applications, such as a file manager, web browser, and media players. Furthermore, I practiced using essential system administration tools like text editors and process monitors. This experience demonstrated that the terminal is a powerful and versatile environment capable of handling complex tasks efficiently.
